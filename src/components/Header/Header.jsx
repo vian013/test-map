@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Header() {
   const { t } = useTranslation();
@@ -11,7 +12,11 @@ function Header() {
       <div className="mx-auto max-w-[1920px] px-4 sm:px-6">
         <NavigationMenu.Root className="flex h-20 items-center justify-between">
           <Link to="/" className="flex items-center">
-            <img src="/icons/logo.svg" alt="Logo" className="h-12 w-auto" />
+            <img
+              src={getAssetPath('icons/logo.svg')}
+              alt="Logo"
+              className="h-12 w-auto"
+            />
           </Link>
 
           <NavigationMenu.List className="hidden items-center space-x-8 lg:flex lg:space-x-12">

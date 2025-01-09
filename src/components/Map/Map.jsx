@@ -8,6 +8,7 @@ import {
 } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import { getAssetPath } from '../../utils/assetPath';
 
 // Fix for default marker icons in React-Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
@@ -58,7 +59,7 @@ function Map() {
 
   const activityIcons = {
     activity1: L.icon({
-      iconUrl: '/icons/activity1-marker.svg',
+      iconUrl: getAssetPath('icons/activity1-marker.svg'),
       iconSize: [32, 32],
     }),
     activity2: L.icon({

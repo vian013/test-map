@@ -1,10 +1,11 @@
 import { useTranslation } from 'react-i18next';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Moments() {
   const { t } = useTranslation();
 
   const mainPost = {
-    image: '/images/moments/img.png',
+    image: getAssetPath('images/moments/img.png'),
     title: t('moments.family.title'),
     date: t('moments.family.date'),
     description: t('moments.family.description'),
@@ -13,7 +14,7 @@ function Moments() {
   const instagramPosts = [
     {
       id: 1,
-      image: '/images/moments/img1.png',
+      image: getAssetPath('images/moments/img1.png'),
       author: 'Anthony Durand',
     },
     {
