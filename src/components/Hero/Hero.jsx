@@ -8,7 +8,7 @@ function Hero() {
     <section className="relative h-[1000px] w-full">
       <div className="absolute inset-0 h-full w-full">
         <img
-          src={getAssetPath('images/hero/background.jpg')}
+          src={getAssetPath('images/hero/hero-image.png')}
           alt="Hero background"
           className="h-full w-full object-cover"
         />
