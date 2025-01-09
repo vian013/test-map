@@ -43,7 +43,11 @@ function Experience() {
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
           {/* Left Content */}
           <div>
-            <img src="/icons/logo.svg" alt="Logo" className="mb-8 h-12" />
+            <img
+              src={getAssetPath('icons/logo-brown.svg')}
+              alt="Logo"
+              className="mb-8 h-12"
+            />
             <h2 className="mb-6 text-5xl font-bold text-[#FF5B2E]">
               {t('experience.title')}
             </h2>
@@ -64,7 +68,7 @@ function Experience() {
         </div>
 
         {/* Values Section */}
-        <div className="mt-20 flex justify-between">
+        <div className="mt-20 grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5">
           {values.map((value) => (
             <div key={value.id} className="text-center">
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#00A693]">

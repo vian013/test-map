@@ -76,13 +76,13 @@ function Map() {
     <section className="py-20">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Title */}
-        <h2 className="text-primary mb-8 text-center text-4xl font-bold">
+        <h2 className="mb-8 text-center text-4xl font-bold text-primary">
           {t('map.title')}
         </h2>
 
         {/* Activity Filters */}
         <div className="mb-8 flex justify-center space-x-4">
-          <button className="border-primary text-primary hover:bg-primary rounded-full border px-6 py-2 hover:text-white">
+          <button className="rounded-full border border-primary px-6 py-2 text-primary hover:bg-primary hover:text-white">
             <img
               src={getAssetPath('icons/map/Adventure.svg')}
               alt=""
@@ -90,7 +90,7 @@ function Map() {
             />
             {t('map.activity1')}
           </button>
-          <button className="border-primary text-primary hover:bg-primary rounded-full border px-6 py-2 hover:text-white">
+          <button className="rounded-full border border-primary px-6 py-2 text-primary hover:bg-primary hover:text-white">
             <img
               src={getAssetPath('icons/map/Fishing.svg')}
               alt=""
@@ -98,7 +98,7 @@ function Map() {
             />
             {t('map.activity2')}
           </button>
-          <button className="border-primary text-primary rounded-full border px-6 py-2 hover:bg-[#FF5B2E] hover:text-white">
+          <button className="rounded-full border border-primary px-6 py-2 text-primary hover:bg-[#FF5B2E] hover:text-white">
             <img
               src={getAssetPath('icons/map/Hunting.svg')}
               alt=""
@@ -109,46 +109,118 @@ function Map() {
         </div>
 
         {/* Maps Grid */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {locations.map((location) => (
-            <div key={location.id} className="overflow-hidden rounded-lg">
-              <div className="relative mb-2">
-                <MapContainer
-                  center={location.coordinates}
-                  zoom={8}
-                  className="h-[300px] w-full"
-                  zoomControl={false}
-                >
-                  <TileLayer
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                  />
-                  <ZoomControl position="bottomright" />
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <div className="overflow-hidden rounded-lg">
+            <div className="relative mb-2">
+              <MapContainer
+                center={locations[0].coordinates}
+                zoom={8}
+                className="h-[300px] w-full"
+                zoomControl={false}
+              >
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                />
+                <ZoomControl position="bottomright" />
 
-                  {location.markers.map((marker, index) => (
-                    <Marker
-                      key={index}
-                      position={[marker.lat, marker.lng]}
-                      icon={activityIcons[marker.type]}
-                    >
-                      <Popup>{marker.type}</Popup>
-                    </Marker>
-                  ))}
-                </MapContainer>
+                {locations[0].markers.map((marker, index) => (
+                  <Marker
+                    key={index}
+                    position={[marker.lat, marker.lng]}
+                    icon={activityIcons[marker.type]}
+                  >
+                    <Popup>{marker.type}</Popup>
+                  </Marker>
+                ))}
+              </MapContainer>
 
-                {/* Location Label */}
-                <div className="absolute left-4 top-4 rounded-full bg-white px-4 py-2 shadow-md">
-                  <img
-                    src={`/icons/${location.name.toLowerCase()}.svg`}
-                    alt=""
-                    className="mr-2 inline-block h-5 w-5"
-                  />
-                  <span className="font-semibold">{location.name}</span>
-                </div>
+              {/* Location Label */}
+              <div className="absolute left-4 top-4 rounded-full bg-white px-4 py-2 shadow-md">
+                <img
+                  src={`/icons/${locations[0].name.toLowerCase()}.svg`}
+                  alt=""
+                  className="mr-2 inline-block h-5 w-5"
+                />
+                <span className="font-semibold">{locations[0].name}</span>
               </div>
-              <p className="text-sm text-gray-600">{location.distance}</p>
             </div>
-          ))}
+            <p className="text-sm text-gray-600">{locations[0].distance}</p>
+          </div>
+          <div className="overflow-hidden rounded-lg">
+            <div className="relative mb-2">
+              <MapContainer
+                center={locations[1].coordinates}
+                zoom={8}
+                className="h-[300px] w-full"
+                zoomControl={false}
+              >
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                />
+                <ZoomControl position="bottomright" />
+
+                {locations[1].markers.map((marker, index) => (
+                  <Marker
+                    key={index}
+                    position={[marker.lat, marker.lng]}
+                    icon={activityIcons[marker.type]}
+                  >
+                    <Popup>{marker.type}</Popup>
+                  </Marker>
+                ))}
+              </MapContainer>
+
+              {/* Location Label */}
+              <div className="absolute left-4 top-4 rounded-full bg-white px-4 py-2 shadow-md">
+                <img
+                  src={`/icons/${locations[1].name.toLowerCase()}.svg`}
+                  alt=""
+                  className="mr-2 inline-block h-5 w-5"
+                />
+                <span className="font-semibold">{locations[1].name}</span>
+              </div>
+            </div>
+            <p className="text-sm text-gray-600">{locations[1].distance}</p>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-lg">
+          <div className="relative mb-2">
+            <MapContainer
+              center={locations[2].coordinates}
+              zoom={8}
+              className="h-[700px] w-full"
+              zoomControl={false}
+            >
+              <TileLayer
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              />
+              <ZoomControl position="bottomright" />
+
+              {locations[2].markers.map((marker, index) => (
+                <Marker
+                  key={index}
+                  position={[marker.lat, marker.lng]}
+                  icon={activityIcons[marker.type]}
+                >
+                  <Popup>{marker.type}</Popup>
+                </Marker>
+              ))}
+            </MapContainer>
+
+            {/* Location Label */}
+            <div className="absolute left-4 top-4 rounded-full bg-white px-4 py-2 shadow-md">
+              <img
+                src={`/icons/${locations[2].name.toLowerCase()}.svg`}
+                alt=""
+                className="mr-2 inline-block h-5 w-5"
+              />
+              <span className="font-semibold">{locations[2].name}</span>
+            </div>
+          </div>
+          <p className="text-sm text-gray-600">{locations[2].distance}</p>
         </div>
       </div>
     </section>
