@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { getAssetPath } from '../../utils/getAssetPath';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Footer() {
   const { t } = useTranslation();
