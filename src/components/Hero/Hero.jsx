@@ -17,21 +17,21 @@ function Hero() {
           <div className="flex justify-center space-x-48">
             <button className="bg-transparent p-0 transition-opacity hover:opacity-80">
               <img
-                src="/icons/Mountains.svg"
+                src={getAssetPath('icons/Mountains.svg')}
                 alt={t('header.mountains')}
                 className="h-[40px] w-auto"
               />
             </button>
             <button className="bg-transparent p-0 transition-opacity hover:opacity-80">
               <img
-                src="/icons/Fishing.svg"
+                src={getAssetPath('icons/Fishing.svg')}
                 alt={t('header.fishing')}
                 className="h-[40px] w-auto"
               />
             </button>
             <button className="bg-transparent p-0 transition-opacity hover:opacity-80">
               <img
-                src="/icons/Crosshair.svg"
+                src={getAssetPath('icons/Crosshair.svg')}
                 alt={t('header.crosshair')}
                 className="h-[40px] w-auto"
               />
