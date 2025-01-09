@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Explorer() {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ function Explorer() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/images/explorer/mountain.png"
+          src={getAssetPath('images/explorer/mountain.png')}
           alt="Mountain landscape"
           className="h-full w-full object-cover"
         />

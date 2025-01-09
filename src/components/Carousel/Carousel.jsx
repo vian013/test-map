@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Carousel() {
   const { t } = useTranslation();
@@ -10,28 +11,28 @@ function Carousel() {
   const slides = [
     {
       id: 1,
-      image: '/images/carousel/img1.png',
+      image: getAssetPath('images/carousel/img1.png'),
       title: t('carousel.slides.1.title'),
       subtitle: t('carousel.slides.1.subtitle'),
       description: t('carousel.slides.1.description'),
     },
     {
       id: 2,
-      image: '/images/carousel/img2.png',
+      image: getAssetPath('images/carousel/img2.png'),
       title: t('carousel.slides.2.title'),
       subtitle: t('carousel.slides.2.subtitle'),
       description: t('carousel.slides.2.description'),
     },
     {
       id: 3,
-      image: '/images/carousel/img3.png',
+      image: getAssetPath('images/carousel/img3.png'),
       title: t('carousel.slides.3.title'),
       subtitle: t('carousel.slides.3.subtitle'),
       description: t('carousel.slides.3.description'),
     },
     {
       id: 4,
-      image: '/images/carousel/img4.png',
+      image: getAssetPath('images/carousel/img4.png'),
       title: t('carousel.slides.4.title'),
       subtitle: t('carousel.slides.4.subtitle'),
       description: t('carousel.slides.4.description'),

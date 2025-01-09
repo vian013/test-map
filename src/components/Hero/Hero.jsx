@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Hero() {
   const { t } = useTranslation();
@@ -7,7 +8,7 @@ function Hero() {
     <section className="relative h-[1000px] w-full">
       <div className="absolute inset-0 h-full w-full">
         <img
-          src="/images/hero-image.png"
+          src={getAssetPath('images/hero/background.jpg')}
           alt="Hero background"
           className="h-full w-full object-cover"
         />

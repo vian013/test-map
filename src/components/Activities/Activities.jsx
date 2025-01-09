@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Activities() {
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ function Activities() {
           <div className="group">
             <div className="mb-6 overflow-hidden">
               <img
-                src="/images/activities/activity1.png"
+                src={getAssetPath('images/activities/activity1.png')}
                 alt={t('activities.snowmobile.alt')}
                 className="h-[400px] w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -47,7 +48,7 @@ function Activities() {
           <div className="group">
             <div className="mb-6 overflow-hidden">
               <img
-                src="/images/activities/activity2.png"
+                src={getAssetPath('images/activities/activity2.png')}
                 alt={t('activities.fishing.alt')}
                 className="h-[400px] w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -73,7 +74,7 @@ function Activities() {
           <div className="group">
             <div className="mb-6 overflow-hidden">
               <img
-                src="/images/activities/activity3.png"
+                src={getAssetPath('images/activities/activity3.png')}
                 alt={t('activities.hunting.alt')}
                 className="h-[400px] w-full object-cover transition-transform duration-300 group-hover:scale-105"
               />

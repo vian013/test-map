@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { getAssetPath } from '../../utils/assetPath';
 
 function Experience() {
   const { t } = useTranslation();
@@ -6,31 +7,31 @@ function Experience() {
   const values = [
     {
       id: 1,
-      icon: '/icons/Mountains.svg',
+      icon: getAssetPath('icons/Mountains.svg'),
       title: 'Authenticité',
       subtitle: 'Sous-titre',
     },
     {
       id: 2,
-      icon: '/icons/Mountains.svg',
+      icon: getAssetPath('icons/Mountains.svg'),
       title: 'Respect',
       subtitle: 'Sous-titre',
     },
     {
       id: 3,
-      icon: '/icons/Mountains.svg',
+      icon: getAssetPath('icons/Mountains.svg'),
       title: 'Diversité',
       subtitle: 'Sous-titre',
     },
     {
       id: 4,
-      icon: '/icons/Mountains.svg',
+      icon: getAssetPath('icons/Mountains.svg'),
       title: 'Personnalisation',
       subtitle: 'Sous-titre',
     },
     {
       id: 5,
-      icon: '/icons/Mountains.svg',
+      icon: getAssetPath('icons/Mountains.svg'),
       title: 'Confort',
       subtitle: 'Sous-titre',
     },
@@ -55,7 +56,7 @@ function Experience() {
           {/* Right Image */}
           <div className="relative">
             <img
-              src="/images/experience/img.png"
+              src={getAssetPath('images/experience/img.png')}
               alt="Mountain Lake"
               className="h-full w-full rounded-lg object-cover"
             />
