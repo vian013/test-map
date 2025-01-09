@@ -1,0 +1,121 @@
+{
+  "header": {
+    "title1": "Titre 1",
+    "title2": "Titre 2",
+    "title3": "Titre 3",
+    "title4": "Titre 4",
+    "mountains": "Montagnes",
+    "fishing": "Pêche",
+    "crosshair": "Viseur",
+    "contact": "Contactez-Nous"
+  },
+  "hero": {
+    "activity1": "ACTIVITÉ 1",
+    "activity2": "ACTIVITÉ 2",
+    "activity3": "ACTIVITÉ 3",
+    "description": "Description"
+  },
+  "blogSection": {
+    "title": "TITRE DU BLOG 1",
+    "subtitle": "Sous-titre"
+  },
+  "activities": {
+    "title": "NOS ACTIVITÉS",
+    "mainTitle": "TITRE BLOC 1",
+    "subtitle": "Sous-titre Bloc 1",
+    "package": "Forfait",
+    "snowmobile": {
+      "title": "Case Title",
+      "subtitle": "Case sous-titre",
+      "description": "Chaque sentier vous conduit à des panoramas époustouflants, chaque instant...",
+      "alt": "Motoneige"
+    },
+    "fishing": {
+      "title": "Case Title",
+      "subtitle": "Case sous-titre",
+      "description": "Chez BASIC, la pêche est une alliance entre passion et respect. Imaginez des lacs paisibles...",
+      "alt": "Pêche"
+    },
+    "hunting": {
+      "title": "Case Title",
+      "subtitle": "Case sous-titre",
+      "description": "BASIC vous guide à travers des territoires authentiques, où la chasse est une quête d'équilibre...",
+      "alt": "Chasse"
+    }
+  },
+  "experience": {
+    "title": "Des expériences inoubliables Lorem Ipsum truc",
+    "subtitle": "À propos de BASIC",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "moments": {
+    "title": "Immortalisez des moments inoubliables avec",
+    "subtitle": "AVEC #BÄSIC",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially ",
+    "consultText": "Consultez @BASIC et",
+    "experienceText": "pour découvrir les expériences inoubliables des pourvoiries et activités BASIC."
+  },
+  "about": {
+    "title": "À Propos",
+    "description": "Nous sommes passionnés par les aventures en plein air"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "email": "Courriel",
+    "message": "Message",
+    "send": "Envoyer le message"
+  },
+  "footer": {
+    "description": "Explorez avec BÄSIC aujourd'hui ! Découvrez des expériences uniques et créez des souvenirs inoubliables dans les plus beaux endroits du Québec.",
+    "navigation": "Navigation",
+    "activities": "Activités",
+    "contact": "Contact",
+    "blog": "Blog",
+    "rights": "Tous droits réservés",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  },
+  "carousel": {
+    "title": "TITRE",
+    "learnMore": "En Savoir Plus",
+    "slides": {
+      "1": {
+        "title": "Case title",
+        "subtitle": "Case sous-titre",
+        "description": "Lorem Ipsum est simplement du faux texte utilisé dans la composition..."
+      },
+      "2": {
+        "title": "Case title",
+        "subtitle": "Case sous-titre",
+        "description": "Lorem Ipsum est simplement du faux texte utilisé dans la composition..."
+      },
+      "3": {
+        "title": "Case title",
+        "subtitle": "Case sous-titre",
+        "description": "Lorem Ipsum est simplement du faux texte utilisé dans la composition..."
+      },
+      "4": {
+        "title": "Case title",
+        "subtitle": "Case sous-titre",
+        "description": "Lorem Ipsum est simplement du faux texte utilisé dans la composition..."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Explorez Avec BASIC",
+    "subtitle": "Dès Aujourd'hui",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "explore": "Explorer"
+  },
+  "map": {
+    "title": "NOS ACTIVITÉS",
+    "activity1": "Activité 1",
+    "activity2": "Activité 2",
+    "activity3": "Activité3",
+    "locations": {
+      "saskatchewan": "Saskatchewan",
+      "nunavik": "Nunavik",
+      "quebec": "Quebec"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "header": {
+    "title1": "Title 1",
+    "title2": "Title 2",
+    "title3": "Title 3",
+    "title4": "Title 4",
+    "mountains": "Mountains",
+    "fishing": "Fishing",
+    "crosshair": "Crosshair",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "welcome": "Welcome to Outdoor Adventure",
+    "description": "Discover amazing outdoor experiences"
+  },
+  "hero": {
+    "activity1": "ACTIVITY 1",
+    "activity2": "ACTIVITY 2",
+    "activity3": "ACTIVITY 3",
+    "description": "Description"
+  },
+  "blog": {
+    "title": "BLOG TITLE 1",
+    "subtitle": "Subtitle"
+  },
+  "blogSection": {
+    "title": "Latest Blog Posts",
+    "subtitle": "Read our latest adventures"
+  },
+  "activities": {
+    "title": "OUR ACTIVITIES",
+    "winter": {
+      "title": "Winter Activities",
+      "description": "Experience the thrill of winter sports and activities in stunning snowy landscapes."
+    },
+    "summer": {
+      "title": "Summer Adventures",
+      "description": "Discover exciting outdoor activities during the warm summer months."
+    },
+    "adventure": {
+      "title": "Extreme Adventures",
+      "description": "Push your limits with our challenging adventure activities."
+    },
+    "mainTitle": "BLOCK TITLE 1",
+    "subtitle": "Block Subtitle 1",
+    "package": "Package",
+    "snowmobile": {
+      "title": "Case Title",
+      "subtitle": "Case Subtitle",
+      "description": "Each trail leads you to breathtaking panoramas, every moment...",
+      "alt": "Snowmobile"
+    },
+    "fishing": {
+      "title": "Case Title",
+      "subtitle": "Case Subtitle",
+      "description": "At BASIC, fishing is an alliance between passion and respect. Imagine peaceful lakes...",
+      "alt": "Fishing"
+    },
+    "hunting": {
+      "title": "Case Title",
+      "subtitle": "Case Subtitle",
+      "description": "BASIC guides you through authentic territories, where hunting is a quest for...",
+      "alt": "Hunting"
+    }
+  },
+  "experience": {
+    "title": "UNFORGETTABLE EXPERIENCES",
+    "subtitle": "LOREM IPSUM",
+    "description": "About BÄSIC: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "moments": {
+    "title": "CAPTURE UNFORGETTABLE MOMENTS WITH",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "consultText": "Check out @BASIC and",
+    "experienceText": "to discover unforgettable experiences from BASIC outfitters and activities.",
+    "family": {
+      "title": "The Family",
+      "date": "Sep 24, 2024",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are passionate about outdoor adventures"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "description": "Explore with BASIC today! Discover unique experiences and create unforgettable memories in Quebec's most beautiful places.",
+    "navigation": "Navigation",
+    "activities": "Activities",
+    "contact": "Contact",
+    "blog": "Blog",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "carousel": {
+    "title": "TITLE",
+    "learnMore": "Learn More",
+    "slides": {
+      "1": {
+        "title": "Case title",
+        "subtitle": "Case Subtitle",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+      },
+      "2": {
+        "title": "Case title",
+        "subtitle": "Case Subtitle",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+      },
+      "3": {
+        "title": "Case title",
+        "subtitle": "Case Subtitle",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+      },
+      "4": {
+        "title": "Case title",
+        "subtitle": "Case Subtitle",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Explore With BASIC",
+    "subtitle": "From Today",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "explore": "Explore"
+  },
+  "map": {
+    "title": "OUR ACTIVITIES",
+    "activity1": "Activity 1",
+    "activity2": "Activity 2",
+    "activity3": "Activity 3",
+    "locations": {
+      "saskatchewan": "Saskatchewan",
+      "nunavik": "Nunavik",
+      "quebec": "Quebec"
+    }
+  }
+}

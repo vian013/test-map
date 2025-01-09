@@ -1,0 +1,69 @@
+{
+  "header": {
+    "title1": "Título 1",
+    "title2": "Título 2",
+    "title3": "Título 3",
+    "title4": "Título 4",
+    "mountains": "Montañas",
+    "fishing": "Pesca",
+    "crosshair": "Mira",
+    "contact": "Contáctenos"
+  },
+  "home": {
+    "welcome": "Bienvenido a Aventura al Aire Libre",
+    "description": "Descubre experiencias increíbles al aire libre"
+  },
+  "hero": {
+    "activity1": "ACTIVIDAD 1",
+    "activity2": "ACTIVIDAD 2",
+    "activity3": "ACTIVIDAD 3",
+    "description": "Descripción"
+  },
+  "blog": {
+    "title": "TÍTULO DEL BLOG 1",
+    "subtitle": "Subtítulo"
+  },
+  "activities": {
+    "title": "NUESTRAS ACTIVIDADES",
+    "winter": {
+      "title": "Actividades de Invierno",
+      "description": "Experimenta la emoción de los deportes y actividades de invierno en impresionantes paisajes nevados."
+    },
+    "summer": {
+      "title": "Aventuras de Verano",
+      "description": "Descubre emocionantes actividades al aire libre durante los cálidos meses de verano."
+    },
+    "adventure": {
+      "title": "Aventuras Extremas",
+      "description": "Supera tus límites con nuestras desafiantes actividades de aventura."
+    }
+  },
+  "experience": {
+    "title": "EXPERIENCIAS INOLVIDABLES",
+    "subtitle": "LOREM IPSUM",
+    "description": "Sobre BÄSIC: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "moments": {
+    "title": "CAPTURA MOMENTOS INOLVIDABLES",
+    "subtitle": "CON #BÄSIC"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "description": "Nos apasionan las aventuras al aire libre"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje"
+  },
+  "footer": {
+    "description": "¡Explora con BÄSIC hoy! Descubre experiencias únicas y crea recuerdos inolvidables en los lugares más hermosos de Quebec.",
+    "navigation": "Navegación",
+    "activities": "Actividades",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
