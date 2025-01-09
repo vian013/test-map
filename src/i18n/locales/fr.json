@@ -73,7 +73,13 @@
     "blog": "Blog",
     "rights": "Tous droits réservés",
     "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation"
+    "terms": "Conditions d'utilisation",
+    "activity1": "Activité 1",
+    "activity2": "Activité 2",
+    "activity3": "Activité3",
+    "title1": "Title 1",
+    "title2": "Title 2",
+    "title3": "Title 3"
   },
   "carousel": {
     "title": "TITRE",

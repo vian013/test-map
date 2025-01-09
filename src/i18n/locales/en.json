@@ -97,7 +97,13 @@
     "blog": "Blog",
     "rights": "All rights reserved",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "activity1": "Activity 1",
+    "activity2": "Activity 2",
+    "activity3": "Activity 3",
+    "title1": "Title 1",
+    "title2": "Title 2",
+    "title3": "Title 3"
   },
   "carousel": {
     "title": "TITLE",

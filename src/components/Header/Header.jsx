@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header className="bg-primary/90 fixed z-50 w-full backdrop-blur-sm">
-      <div className="mx-auto max-w-[1920px] px-4 sm:px-6">
+      <div className="mx-auto px-4 sm:max-w-[1000px]">
         <NavigationMenu.Root className="flex h-20 items-center justify-between">
           <Link to="/" className="flex items-center">
             <img

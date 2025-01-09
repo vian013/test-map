@@ -6,15 +6,15 @@ function Footer() {
   const { t } = useTranslation();
 
   const navigation = [
-    { name: t('footer.links.activity1'), href: '/activite-1' },
-    { name: t('footer.links.activity2'), href: '/activite-2' },
-    { name: t('footer.links.activity3'), href: '/activite-3' },
+    { name: t('footer.activity1'), href: '/activite-1' },
+    { name: t('footer.activity2'), href: '/activite-2' },
+    { name: t('footer.activity3'), href: '/activite-3' },
   ];
 
   const titles = [
-    { name: t('footer.links.title1'), href: '/titre-1' },
-    { name: t('footer.links.title2'), href: '/titre-2' },
-    { name: t('footer.links.title3'), href: '/titre-3' },
+    { name: t('footer.title1'), href: '/titre-1' },
+    { name: t('footer.title2'), href: '/titre-2' },
+    { name: t('footer.title3'), href: '/titre-3' },
   ];
 
   const contacts = [
@@ -23,9 +23,21 @@ function Footer() {
   ];
 
   const socials = [
-    { name: 'Facebook', href: '#', icon: getAssetPath('icons/facebook.svg') },
-    { name: 'Instagram', href: '#', icon: getAssetPath('icons/instagram.svg') },
-    { name: 'Youtube', href: '#', icon: getAssetPath('icons/youtube.svg') },
+    {
+      name: 'Facebook',
+      href: '#',
+      icon: getAssetPath('icons/footer/facebook.svg'),
+    },
+    {
+      name: 'Instagram',
+      href: '#',
+      icon: getAssetPath('icons/footer/instagram.svg'),
+    },
+    {
+      name: 'Youtube',
+      href: '#',
+      icon: getAssetPath('icons/footer/youtube.svg'),
+    },
   ];
 
   return (
