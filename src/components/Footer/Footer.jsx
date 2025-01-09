@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { getAssetPath } from '../../utils/getAssetPath';
 
 function Footer() {
   const { t } = useTranslation();
@@ -22,9 +23,9 @@ function Footer() {
   ];
 
   const socials = [
-    { name: 'Facebook', href: '#', icon: '/icons/facebook.svg' },
-    { name: 'Instagram', href: '#', icon: '/icons/instagram.svg' },
-    { name: 'Youtube', href: '#', icon: '/icons/youtube.svg' },
+    { name: 'Facebook', href: '#', icon: getAssetPath('icons/facebook.svg') },
+    { name: 'Instagram', href: '#', icon: getAssetPath('icons/instagram.svg') },
+    { name: 'Youtube', href: '#', icon: getAssetPath('icons/youtube.svg') },
   ];
 
   return (

@@ -13,9 +13,9 @@ import { getAssetPath } from '../../utils/assetPath';
 // Fix for default marker icons in React-Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: '/icons/marker-icon-2x.png',
-  iconUrl: '/icons/marker-icon.png',
-  shadowUrl: '/icons/marker-shadow.png',
+  iconRetinaUrl: getAssetPath('icons/marker-icon-2x.png'),
+  iconUrl: getAssetPath('icons/marker-icon.png'),
+  shadowUrl: getAssetPath('icons/marker-shadow.png'),
 });
 
 function Map() {
@@ -63,11 +63,11 @@ function Map() {
       iconSize: [32, 32],
     }),
     activity2: L.icon({
-      iconUrl: '/icons/activity2-marker.svg',
+      iconUrl: getAssetPath('icons/activity2-marker.svg'),
       iconSize: [32, 32],
     }),
     activity3: L.icon({
-      iconUrl: '/icons/activity3-marker.svg',
+      iconUrl: getAssetPath('icons/activity3-marker.svg'),
       iconSize: [32, 32],
     }),
   };
@@ -84,7 +84,7 @@ function Map() {
         <div className="mb-8 flex justify-center space-x-4">
           <button className="border-primary text-primary hover:bg-primary rounded-full border px-6 py-2 hover:text-white">
             <img
-              src="/icons/map/Adventure.svg"
+              src={getAssetPath('icons/map/Adventure.svg')}
               alt=""
               className="mr-2 inline-block h-5 w-5"
             />
@@ -92,7 +92,7 @@ function Map() {
           </button>
           <button className="border-primary text-primary hover:bg-primary rounded-full border px-6 py-2 hover:text-white">
             <img
-              src="/icons/map/Fishing.svg"
+              src={getAssetPath('icons/map/Fishing.svg')}
               alt=""
               className="mr-2 inline-block h-5 w-5"
             />
@@ -100,7 +100,7 @@ function Map() {
           </button>
           <button className="border-primary text-primary rounded-full border px-6 py-2 hover:bg-[#FF5B2E] hover:text-white">
             <img
-              src="/icons/map/Hunting.svg"
+              src={getAssetPath('icons/map/Hunting.svg')}
               alt=""
               className="mr-2 inline-block h-5 w-5"
             />

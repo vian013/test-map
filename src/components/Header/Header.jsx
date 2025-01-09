@@ -46,21 +46,21 @@ function Header() {
             <LanguageSwitcher />
             <button className="hidden bg-transparent p-0 transition-opacity hover:opacity-80 sm:block">
               <img
-                src="/icons/Mountains.svg"
+                src={getAssetPath('icons/Mountains.svg')}
                 alt={t('header.mountains')}
                 className="h-[28px] w-auto"
               />
             </button>
             <button className="hidden bg-transparent p-0 transition-opacity hover:opacity-80 sm:block">
               <img
-                src="/icons/Fishing.svg"
+                src={getAssetPath('icons/Fishing.svg')}
                 alt={t('header.fishing')}
                 className="h-[28px] w-auto"
               />
             </button>
             <button className="hidden bg-transparent p-0 transition-opacity hover:opacity-80 sm:block">
               <img
-                src="/icons/Crosshair.svg"
+                src={getAssetPath('icons/Crosshair.svg')}
                 alt={t('header.crosshair')}
                 className="h-[28px] w-auto"
               />

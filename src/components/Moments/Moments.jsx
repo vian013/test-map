@@ -19,17 +19,17 @@ function Moments() {
     },
     {
       id: 2,
-      image: '/images/moments/img2.png',
+      image: getAssetPath('images/moments/img2.png'),
       author: 'Anthony Durand',
     },
     {
       id: 3,
-      image: '/images/moments/img3.png',
+      image: getAssetPath('images/moments/img3.png'),
       author: 'Anthony Durand',
     },
     {
       id: 4,
-      image: '/images/moments/img4.png',
+      image: getAssetPath('images/moments/img4.png'),
       author: 'Anthony Durand',
     },
   ];
