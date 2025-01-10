@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="fixed z-[9999] w-full bg-primary/90 backdrop-blur-sm">
-      <div className="mx-auto sm:max-w-[1000px]">
+      <div className="mx-auto sm:max-w-[1200px]">
         <NavigationMenu.Root className="relative flex h-20 items-center justify-between px-4">
           <Link to="/" className="flex items-center">
             <img
